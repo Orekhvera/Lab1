@@ -1,0 +1,19 @@
+package com.company;
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Введите 4 числa: ");
+        int x = input.nextInt();
+        int y = input.nextInt();
+        int m = input.nextInt();
+        int n = input.nextInt();
+
+        System.out.println("Наименьшее число из 4 чисел = "  + Math.min(Math.min(x, y), Math.min(n, m)));
+
+
+    }
+}
